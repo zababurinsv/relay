@@ -19,9 +19,9 @@ let PeerListener = {
   async function createLibp2p(_options) {
     const defaults = {
       addresses: {
-        listen: [`/dns4/web3-star.herokuapp.com/tcp/${port}/wss`]
+        // listen: [`/dns4/web3-star.herokuapp.com/tcp/${port}/wss`]
         // TODO check "What is next?" section
-        // announce: [`/dns4/web3-star.herokuapp.com/tcp/${port}/wss`]
+        announce: [`/dns4/web3-star.herokuapp.com/tcp/${port}/wss`]
       },
       modules: {
         transport: [Websockets],
