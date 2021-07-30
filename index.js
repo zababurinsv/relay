@@ -1,4 +1,4 @@
-const Peers = require('./fixtures/peers')
+// const Peers = require('./fixtures/peers')
 // const Libp2p = require('libp2p')
 // const Websockets = require('libp2p-websockets')
 // const { NOISE } = require('libp2p-noise')
