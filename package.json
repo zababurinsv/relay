@@ -1,0 +1,10 @@
+{
+  "name": "@orbit/relay",
+  "version": "1.0.0",
+  "description": "\"relay\"",
+  "main": "index.js",
+  "repository": "https://github.com/zababurinsv/relay.git",
+  "author": "szababurin <s.zababurin.v@gmail.com>",
+  "license": "Apache 2.0",
+  "private": true
+}
