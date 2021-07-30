@@ -1,14 +1,14 @@
 {
   "name": "@orbit/relay",
   "version": "1.0.0",
-  "description": "\"relay\"",
+  "description": "relay",
   "main": "index.js",
   "repository": "https://github.com/zababurinsv/relay.git",
   "author": "szababurin <s.zababurin.v@gmail.com>",
   "license": "Apache 2.0",
   "private": true,
   "scripts": {
-    "start": "node index.js",
+    "start": "node ./index.js",
     "logs:heroku": "heroku -h"
   },
   "dependency": {
