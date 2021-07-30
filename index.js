@@ -21,7 +21,7 @@ let PeerListener = {
       addresses: {
         // listen: ['/ip4/0.0.0.0/tcp/0/ws']
         // TODO check "What is next?" section
-        announce: [`/dns4/web3-star.herokuapp.com/tcp/${port}/wss/`]
+        announce: [`/dns4/web3-star.herokuapp.com/tcp/443/wss`]
       },
       modules: {
         transport: [Websockets],
